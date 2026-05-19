@@ -3,7 +3,7 @@ import { ChevronRight, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 import ngajiBisnisImg from '../assets/images/ngaji_bisnis.jpg';
-const musyawarahOwnerImg = 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2670&auto=format&fit=crop';
+import musyawarahOwnerImg from '../assets/images/musyawarah_owner.jpg';
 import klinikMuamalahImg from '../assets/images/klinik_muamalah.jpg';
 import rihlahPengusahaImg from '../assets/images/rihlah_pengusaha.jpg';
 import zalzalahSupportImg from '../assets/images/zalzalah_support.jpg';
