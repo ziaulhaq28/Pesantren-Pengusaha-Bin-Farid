@@ -67,7 +67,7 @@ export const Hero = () => {
           >
             <img 
               src={slides[current].image} 
-              alt={slides[current].title}
+              alt=""
               className="w-full h-full object-cover"
             />
           </motion.div>
