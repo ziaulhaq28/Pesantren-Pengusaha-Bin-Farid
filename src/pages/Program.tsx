@@ -2,11 +2,11 @@ import { FadeIn } from '@/src/components/FadeIn';
 import { ChevronRight, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-import ngajiBisnisImg from '../assets/images/ngaji_bisnis.jpg';
-import musyawarahOwnerImg from '../assets/images/musyawarah_owner.jpg';
-import klinikMuamalahImg from '../assets/images/klinik_muamalah.jpg';
-import rihlahPengusahaImg from '../assets/images/rihlah_pengusaha.jpg';
-import zalzalahSupportImg from '../assets/images/zalzalah_support.jpg';
+import ngajiBisnisImg from '@/src/assets/images/ngaji_bisnis.jpg';
+import musyawarahOwnerImg from '@/src/assets/images/musyawarah_owner.jpg';
+import klinikMuamalahImg from '@/src/assets/images/klinik_muamalah.jpg';
+import rihlahPengusahaImg from '@/src/assets/images/rihlah_pengusaha.jpg';
+import zalzalahSupportImg from '@/src/assets/images/zalzalah_support.jpg';
 
 const programs = [
   {
