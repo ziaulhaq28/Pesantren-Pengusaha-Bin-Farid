@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-heading: "Cormorant Garamond", serif;
+  --font-sans: "Inter", "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-primary-green: #1F6F54;
+  --color-secondary-gold: #E2B93B;
+  --color-bone-white: #F7F5F0;
+  --color-bone-white-dark: #EFEAE0;
+  --color-charcoal: #2B2B2B;
+  --color-muted-text: #676767;
+}
+
+@layer base {
+  body {
+    @apply bg-bone-white text-charcoal font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+.glass-nav {
+  @apply backdrop-blur-md bg-bone-white/80 border-b border-charcoal/5;
+}
+
+.markdown-body {
+  @apply prose max-w-none;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-bone-white;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-primary-green/20 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary-green/40;
+}

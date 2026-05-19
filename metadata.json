@@ -1,0 +1,8 @@
+{
+  "name": "Pesantren Pengusaha Bin Farid",
+  "description": "A lifelong Islamic business brotherhood and spiritual-business ecosystem for Muslim entrepreneurs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
