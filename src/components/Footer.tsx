@@ -85,7 +85,8 @@ export const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="text-[11px] leading-relaxed opacity-70">
               <p className="mb-4">
-                <mark>Citra Grand Mutiara Blok A</mark> - Pereng Dawe, Jatipereng, Balecatur, Gamping, Sleman Regency, Special Region of Yogyakarta 55295
+                <mark>Citra Grand Mutiara Blok A</mark> 
+                <br />Pereng Dawe, Jatipereng, Balecatur, Gamping, Sleman Regency, Special Region of Yogyakarta 55295
               </p>
               <div className="flex items-center gap-2 text-secondary-gold font-bold">
                  <div className="w-4 h-[1px] bg-secondary-gold" />
