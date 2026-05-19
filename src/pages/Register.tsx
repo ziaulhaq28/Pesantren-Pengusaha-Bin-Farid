@@ -64,7 +64,7 @@ export default function Register() {
                          <input 
                             type="text" 
                             className="w-full bg-bone-white border border-charcoal/5 px-6 py-4 rounded-2xl text-charcoal focus:border-primary-green/30 outline-none transition-all"
-                            placeholder="John Doe"
+                            placeholder="Abdullah"
                             required
                          />
                       </div>

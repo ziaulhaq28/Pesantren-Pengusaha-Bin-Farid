@@ -5,26 +5,31 @@ const logo = 'https://i.ibb.co.com/PscCGZCL/logo-pesantren-bin-farid.jpg';
 export const Footer = () => {
   return (
     <footer id="main-footer" className="bg-primary-green text-bone-white/80 py-16 px-6 md:px-12 border-t border-primary-green/20 relative overflow-hidden">
-      {/* Islamic Mosaic Illustration Background */}
-      <div className="absolute inset-0 opacity-20 pointer-events-none overflow-hidden mix-blend-multiply">
-        <svg width="100%" height="100%" className="text-[#0a2e1d]">
-          <filter id="emboss">
-            <feOffset dx="-1" dy="-1" />
-            <feGaussianBlur stdDeviation="1" result="blur" />
-            <feComposite operator="out" in="SourceGraphic" in2="blur" result="inverse" />
-            <feFlood floodColor="black" floodOpacity="0.5" />
-            <feComposite operator="in" in2="inverse" result="shadow" />
-            <feComposite operator="over" in="shadow" in2="SourceGraphic" />
-          </filter>
-          <pattern id="mosaic-pattern" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
-             <g filter="url(#emboss)">
-               <path d="M60 0 L75 45 L120 60 L75 75 L60 120 L45 75 L0 60 L45 45 Z" fill="currentColor" opacity="0.3" />
-               <circle cx="60" cy="60" r="15" stroke="currentColor" fill="none" strokeWidth="1" opacity="0.2" />
-               <path d="M20 20 L40 40 M100 100 L80 80 M20 100 L40 80 M100 20 L80 40" stroke="currentColor" strokeWidth="0.5" opacity="0.1" />
-               <rect x="55" y="55" width="10" height="10" transform="rotate(45 60 60)" stroke="currentColor" fill="none" strokeWidth="0.5" opacity="0.2" />
+      {/* Islamic Mosaic Illustration Background - Inspired by Bin Farid Logo */}
+      <div className="absolute inset-0 opacity-15 pointer-events-none overflow-hidden mix-blend-multiply">
+        <svg width="100%" height="100%" className="text-[#082216]">
+          <pattern id="logo-mosaic" x="0" y="0" width="150" height="150" patternUnits="userSpaceOnUse">
+             <g transform="translate(75, 75)">
+               {/* Central Emblem Silhouette */}
+               <path 
+                 d="M0 -60 L14 -15 L60 0 L14 15 L0 60 L-14 15 L-60 0 L-14 -15 Z" 
+                 fill="currentColor" 
+               />
+               <circle r="25" stroke="currentColor" fill="none" strokeWidth="2" />
+               <circle r="45" stroke="currentColor" fill="none" strokeWidth="0.5" opacity="0.5" />
+               
+               {/* Intersecting Geometry */}
+               <path d="M-75 -75 L75 75 M-75 75 L75 -75" stroke="currentColor" strokeWidth="0.2" opacity="0.3" />
+               <rect x="-30" y="-30" width="60" height="60" transform="rotate(45)" stroke="currentColor" fill="none" strokeWidth="0.5" opacity="0.4" />
+               
+               {/* Small accent dots at corners */}
+               <circle cx="75" cy="0" r="2" fill="currentColor" opacity="0.2" />
+               <circle cx="-75" cy="0" r="2" fill="currentColor" opacity="0.2" />
+               <circle cx="0" cy="75" r="2" fill="currentColor" opacity="0.2" />
+               <circle cx="0" cy="-75" r="2" fill="currentColor" opacity="0.2" />
              </g>
           </pattern>
-          <rect width="100%" height="100%" fill="url(#mosaic-pattern)" />
+          <rect width="100%" height="100%" fill="url(#logo-mosaic)" />
         </svg>
       </div>
 
