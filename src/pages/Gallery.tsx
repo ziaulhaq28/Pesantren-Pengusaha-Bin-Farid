@@ -11,6 +11,7 @@ import musyawarahOwnerImg from '../assets/images/musyawarah_owner.jpg';
 import manifestoImg from '../assets/images/manifesto.jpg';
 import extra1Img from '../assets/images/extra_1.jpg';
 import extra2Img from '../assets/images/extra_2.png';
+import founderImg from '../assets/images/founder.png';
 
 const galleryItems = [
   { id: 1, category: 'Kajian', img: ngajiBisnisImg, title: 'Ngaji Bisnis Pekanan' },
@@ -21,7 +22,7 @@ const galleryItems = [
   { id: 6, category: 'Diskusi', img: manifestoImg, title: 'Manifesto Gathering' },
   { id: 7, category: 'Persaudaraan', img: extra1Img, title: 'Kehangatan Ukhuwah' },
   { id: 8, category: 'Rihlah', img: extra2Img, title: 'Jejak Langkah Keberkahan' },
-  { id: 9, category: 'Kajian', img: 'https://images.unsplash.com/photo-1591604129931-e1846b457884?q=80&w=2670&auto=format&fit=crop', title: 'Ibadah & Muamalah' },
+  { id: 9, category: 'Persaudaraan', img: founderImg, title: 'Mabi (Malam Bina Insan)' },
 ];
 
 const categories = ['Semua', 'Kajian', 'Diskusi', 'Persaudaraan', 'Rihlah'];
