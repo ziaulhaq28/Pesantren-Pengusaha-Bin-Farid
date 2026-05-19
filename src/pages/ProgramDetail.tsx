@@ -3,11 +3,11 @@ import { FadeIn } from '@/src/components/FadeIn';
 import { ChevronRight, Calendar, Users, Target, ShieldCheck, MapPin } from 'lucide-react';
 import { cn } from '@/src/lib/utils';
 
-import ngajiBisnisImg from '../assets/images/regenerated_image_1779153629316.jpg';
-import musyawarahOwnerImg from '../assets/images/regenerated_image_1779153822168.jpg';
-import klinikMuamalahImg from '../assets/images/regenerated_image_1779154311367.jpg';
-import rihlahPengusahaImg from '../assets/images/regenerated_image_1779154427668.jpg';
-import zalzalahSupportImg from '../assets/images/regenerated_image_1779166294495.jpg';
+import ngajiBisnisImg from '../assets/images/ngaji_bisnis.jpg';
+import musyawarahOwnerImg from '../assets/images/musyawarah_owner.jpg';
+import klinikMuamalahImg from '../assets/images/klinik_muamalah.jpg';
+import rihlahPengusahaImg from '../assets/images/rihlah_pengusaha.jpg';
+import zalzalahSupportImg from '../assets/images/zalzalah_support.jpg';
 
 const programData: Record<string, any> = {
   'majelis-22-bin-farid': {

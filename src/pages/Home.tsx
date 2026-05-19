@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 import { TrendingUp, ShieldCheck, Heart, Users, Anchor, ChevronRight, Quote } from 'lucide-react';
 import { cn } from '@/src/lib/utils';
 
-import founderImg from '../assets/images/regenerated_image_1779131369621.png';
-import manifestoImg from '../assets/images/regenerated_image_1779166598398.jpg';
-import ngajiBisnisImg from '../assets/images/regenerated_image_1779153629316.jpg';
-import zalzalahSupportImg from '../assets/images/regenerated_image_1779166294495.jpg';
+import founderImg from '../assets/images/founder.png';
+import manifestoImg from '../assets/images/manifesto.jpg';
+import ngajiBisnisImg from '../assets/images/ngaji_bisnis.jpg';
+import zalzalahSupportImg from '../assets/images/zalzalah_support.jpg';
 
 const logo = 'https://i.ibb.co.com/PscCGZCL/logo-pesantren-bin-farid.jpg';
 
