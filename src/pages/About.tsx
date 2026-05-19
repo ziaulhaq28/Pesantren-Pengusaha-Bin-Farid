@@ -1,6 +1,6 @@
 import { FadeIn } from '@/src/components/FadeIn';
 import { Quote, CheckCircle2, Award, History } from 'lucide-react';
-import manifestoImg from '@/src/assets/images/manifesto.jpg';
+import manifestoImg from '../assets/images/manifesto.jpg';
 
 export default function About() {
   return (

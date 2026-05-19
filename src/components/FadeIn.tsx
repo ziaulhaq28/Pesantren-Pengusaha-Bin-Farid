@@ -1,21 +1,20 @@
-import { ReactNode } from 'react';
+import React from 'react';
 import { motion, HTMLMotionProps } from 'motion/react';
 
 interface FadeInProps extends HTMLMotionProps<"div"> {
-  children: ReactNode;
   delay?: number;
   direction?: 'up' | 'down' | 'left' | 'right' | 'none';
   duration?: number;
 }
 
-export const FadeIn = ({ 
+export const FadeIn: React.FC<React.PropsWithChildren<FadeInProps>> = ({ 
   children, 
   delay = 0, 
   direction = 'up', 
   duration = 0.8,
   className,
   ...props 
-}: FadeInProps) => {
+}) => {
   const directions = {
     up: { y: 20, x: 0 },
     down: { y: -20, x: 0 },

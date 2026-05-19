@@ -19,7 +19,7 @@ const articles = [
     author: 'Ust. Ahmad',
     date: '08 Mei 2026',
     category: 'Leadership',
-    img: 'https://images.unsplash.com/photo-1541746972996-4e0b0f43e03a?q=80&w=2670&auto=format&fit=crop'
+    img: 'https://i.ibb.co.com/S4kwQp73/los-angeles-ca-may-18-man-rest-hollywood-dolby-theatre-may-18-2014-los-angeles-started-as-small-comm.jpg'
   },
   {
     id: 3,
