@@ -76,7 +76,7 @@ export default function Home() {
           <FadeIn>
             <span className="text-secondary-gold text-sm font-bold uppercase tracking-[0.3em] mb-6 block">Visi Besar Kami</span>
             <h2 className="text-4xl md:text-6xl mb-8">
-              Melahirkan 1000 Pebisnis Berkaliber Dunia dengan Iman dan Adab.
+              Melahirkan 1000 Pebisnis Berkaliber Kelas Dunia Yang Tinggat Keimanannya Setara Dengan Para Sahabat Rosul.
             </h2>
             <div className="w-24 h-[2px] bg-secondary-gold mx-auto" />
           </FadeIn>

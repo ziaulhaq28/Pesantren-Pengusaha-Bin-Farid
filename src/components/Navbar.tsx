@@ -56,7 +56,7 @@ export const Navbar = () => {
             <Link to="/" className="group flex flex-col">
               <div className={cn(
                 "flex flex-col transition-colors",
-                isScrolled || isMobileMenuOpen ? "text-primary-green" : "text-white"
+                isScrolled || isMobileMenuOpen ? "text-primary-green" : "text-secondary-gold"
               )}>
                 <span className="text-[9px] tracking-[0.2em] uppercase font-bold opacity-70 group-hover:text-secondary-gold transition-colors">Pesantren Pengusaha</span>
                 <span className="font-heading font-bold text-2xl leading-none tracking-tight group-hover:text-secondary-gold transition-colors">BIN FARID</span>

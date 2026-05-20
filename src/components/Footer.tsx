@@ -86,7 +86,7 @@ export const Footer = () => {
             <div className="text-[11px] leading-relaxed opacity-70">
               <p className="mb-4">
                 <mark>Citra Grand Mutiara Blok A</mark> 
-                <br />Pereng Dawe, Jatipereng, Balecatur, Gamping, Sleman Regency, Special Region of Yogyakarta 55295
+                <br />Citra Grand Mutiara Blok A, Jatipereng, Balecatur, Gamping, Sleman Regency, Special Region of Yogyakarta 55295
               </p>
               <div className="flex items-center gap-2 text-secondary-gold font-bold">
                  <div className="w-4 h-[1px] bg-secondary-gold" />
@@ -95,7 +95,7 @@ export const Footer = () => {
             </div>
             <div className="h-44 rounded-[2rem] overflow-hidden border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.3)] group hover:scale-[1.02] transition-transform duration-500">
                <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15811.832448378546!2d110.30154065!3d-7.79425415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af7e91eb7dd1d%3A0xe7cba68c78c3c13e!2sPereng%20dawe%2C%20Balecatur%2C%20Gamping%2C%20Sleman%20Regency%2C%20Special%20Region%20of%20Yogyakarta!5e0!3m2!1sen!2sid!4v1716035000000!5m2!1sen!2sid" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15811.832448378546!2d110.30154065!3d-7.79425415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af7e91eb7dd1d%3A0xe7cba68c78c3c13e!2sCitra%20Grand%20Mutiara%20Blok%20A%2C%20Balecatur%2C%20Gamping%2C%20Sleman%20Regency%2C%20Special%20Region%20of%20Yogyakarta!5e0!3m2!1sen!2sid!4v1716035000000!5m2!1sen!2sid" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
