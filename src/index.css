@@ -6,8 +6,8 @@
   --font-heading: "Cormorant Garamond", serif;
   --font-sans: "Inter", "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
 
-  --color-primary-green: #1F6F54;
-  --color-secondary-gold: #E2B93B;
+  --color-primary-green: #134D37;
+  --color-secondary-gold: #B98F25;
   --color-bone-white: #F7F5F0;
   --color-bone-white-dark: #EFEAE0;
   --color-charcoal: #2B2B2B;
@@ -16,11 +16,11 @@
 
 @layer base {
   body {
-    @apply bg-bone-white text-charcoal font-sans antialiased;
+    @apply bg-bone-white text-charcoal font-sans antialiased font-[450];
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-heading;
+    @apply font-heading font-semibold;
   }
 }
 

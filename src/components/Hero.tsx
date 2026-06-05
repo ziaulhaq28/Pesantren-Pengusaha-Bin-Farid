@@ -80,7 +80,7 @@ export const Hero = () => {
       </div>
 
       {/* Content Container */}
-      <div className="relative z-20 h-full max-w-7xl mx-auto px-8 md:px-24 flex flex-col justify-center">
+      <div className="relative z-20 h-full max-w-7xl mx-auto px-8 md:px-24 flex flex-col justify-center pt-28 md:pt-36">
         <AnimatePresence mode="wait">
           <motion.div
             key={`text-${current}`}
@@ -90,7 +90,7 @@ export const Hero = () => {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="max-w-2xl"
           >
-            <span className="text-secondary-gold uppercase tracking-[0.4em] text-[11px] md:text-[13px] font-bold mb-6 block">
+            <span className="text-secondary-gold uppercase tracking-[0.4em] md:tracking-[0.5em] text-[11px] md:text-[13px] font-bold mb-6 md:mb-8 block leading-relaxed md:leading-loose">
               {slides[current].subtitle}
             </span>
             <h1 className="text-5xl md:text-8xl lg:text-[110px] text-primary-green mb-8 leading-[0.9] font-heading font-bold">
