@@ -23,6 +23,20 @@ const galleryItems = [
   { id: 7, category: 'Persaudaraan', img: extra1Img, title: 'Kehangatan Ukhuwah' },
   { id: 8, category: 'Rihlah', img: extra2Img, title: 'Jejak Langkah Keberkahan' },
   { id: 9, category: 'Persaudaraan', img: founderImg, title: 'Mabi (Malam Bina Insan)' },
+  { id: 10, category: 'Kajian', img: 'https://i.ibb.co.com/jPPnztNw/Whats-App-Image-2026-05-21-at-22-13-28-1.jpg', title: 'Halaqah Pengusaha Muslim' },
+  { id: 11, category: 'Persaudaraan', img: 'https://i.ibb.co.com/d01GSzrX/Whats-App-Image-2026-05-21-at-22-13-28.jpg', title: 'Silaturahmi & Sinergi Umat' },
+  { id: 12, category: 'Kajian', img: 'https://i.ibb.co.com/RpHFfznk/Whats-App-Image-2026-05-21-at-22-13-29-1.jpg', title: 'Kajian Adab Kontemporer' },
+  { id: 13, category: 'Rihlah', img: 'https://i.ibb.co.com/397LFChm/Whats-App-Image-2026-05-21-at-22-13-29.jpg', title: 'Tadabbur Alam & Rihlah Dakwah' },
+  { id: 14, category: 'Diskusi', img: 'https://i.ibb.co.com/m5pRB6b0/Whats-App-Image-2026-05-21-at-22-13-22-1.jpg', title: 'Sinergi Owner & Leader' },
+  { id: 15, category: 'Kajian', img: 'https://i.ibb.co.com/WNjGf9MD/Whats-App-Image-2026-05-21-at-22-13-23.jpg', title: 'Kajian Rutin Pengusaha' },
+  { id: 16, category: 'Persaudaraan', img: 'https://i.ibb.co.com/WWrPBjTp/Whats-App-Image-2026-05-21-at-22-13-23-1.jpg', title: 'Keakraban Antar Pengusaha' },
+  { id: 17, category: 'Rihlah', img: 'https://i.ibb.co.com/R4VWK3B0/Whats-App-Image-2026-05-21-at-22-13-23-2.jpg', title: 'Rihlah Tadabbur Alam' },
+  { id: 18, category: 'Diskusi', img: 'https://i.ibb.co.com/dwB4jpXq/Whats-App-Image-2026-05-21-at-22-13-24.jpg', title: 'Sharing Session Kisah Sukses' },
+  { id: 19, category: 'Kajian', img: 'https://i.ibb.co.com/8DrRrQ5b/Whats-App-Image-2026-05-21-at-22-13-25.jpg', title: 'Kajian Adab Berbisnis' },
+  { id: 20, category: 'Persaudaraan', img: 'https://i.ibb.co.com/HpV5M91D/Whats-App-Image-2026-05-21-at-22-13-26.jpg', title: 'Ukhuwah Bin Farid' },
+  { id: 21, category: 'Rihlah', img: 'https://i.ibb.co.com/9kLdbqCC/Whats-App-Image-2026-05-21-at-22-13-30.jpg', title: 'Kebersamaan di Alam Terbuka' },
+  { id: 22, category: 'Diskusi', img: 'https://i.ibb.co.com/G4bccN4D/Whats-App-Image-2026-05-21-at-22-13-20.jpg', title: 'Diskusi Bisnis Syariah' },
+  { id: 23, category: 'Kajian', img: 'https://i.ibb.co.com/675xHHzf/Whats-App-Image-2026-05-21-at-22-13-22.jpg', title: 'Kajian Mentoring Spiritual' },
 ];
 
 const categories = ['Semua', 'Kajian', 'Diskusi', 'Persaudaraan', 'Rihlah'];
@@ -79,7 +93,11 @@ export default function Gallery() {
                 <div className="absolute inset-0 bg-charcoal/0 group-hover:bg-charcoal/40 transition-colors z-10 flex items-center justify-center">
                   <Maximize2 className="text-white opacity-0 group-hover:opacity-100 transition-opacity scale-50 group-hover:scale-100 duration-300" size={32} />
                 </div>
-                <img src={item.img} alt={item.title} className="w-full h-auto" />
+                <img 
+                  src={item.img} 
+                  alt={item.title} 
+                  className="w-full h-auto filter brightness-[0.98] contrast-[1.03] sepia-[8%] saturate-[0.95] group-hover:brightness-100 group-hover:contrast-100 group-hover:sepia-0 group-hover:saturate-100 transition-all duration-700" 
+                />
                 <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-charcoal/80 to-transparent z-10 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
                    <p className="text-white font-heading text-lg">{item.title}</p>
                    <span className="text-secondary-gold text-[10px] font-bold uppercase tracking-widest">{item.category}</span>
