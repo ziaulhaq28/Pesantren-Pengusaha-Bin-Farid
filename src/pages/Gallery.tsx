@@ -10,7 +10,7 @@ import zalzalahSupportImg from '../assets/images/zalzalah_support.jpg';
 const musyawarahOwnerImg = 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2670&auto=format&fit=crop';
 import manifestoImg from '../assets/images/manifesto.jpg';
 import extra1Img from '../assets/images/extra_1.jpg';
-import extra2Img from '../assets/images/extra_2.png';
+import extra2Img from '../assets/images/regenerated_image_1787664721064.jpg';
 import founderImg from '../assets/images/founder.png';
 
 const galleryItems = [
