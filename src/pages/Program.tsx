@@ -10,10 +10,10 @@ import zalzalahSupportImg from '../assets/images/zalzalah_support.jpg';
 
 const programs = [
   {
-    id: 'majelis-22-bin-farid',
-    title: 'Majelis 22 Bin Farid',
+    id: 'majelis-al-mahabbah',
+    title: 'Majelis Al-Mahabbah',
     image: 'https://i.ibb.co.com/VdTTstr/close-up-still-life-hard-exams.jpg',
-    desc: 'Kajian rutin bulanan setiap tanggal 22 yang berlokasi di Yogyakarta. Majelis ini menjadi titik temu spiritual bagi pengusaha muslim.',
+    desc: 'Melahirkan 1000 pebisnis yang berkarakter taqwa setara dengan sahabat Rasul yang berbisnis selayaknya pebisnis kelas dunia',
     category: 'Spiritual',
     objectives: ['Recharge iman', 'Networking ukhuwah', 'Diskusi adab'],
     who: 'Owner Bisnis, Manager, Professional'
@@ -37,8 +37,8 @@ const programs = [
     who: 'Business Owners Only'
   },
   {
-    id: 'zalzalah-support',
-    title: 'Zalzalah Support',
+    id: 'santri-zalzalah',
+    title: 'Santri Zalzalah',
     image: zalzalahSupportImg,
     desc: 'Support system spiritual dan emosional bagi member yang bisnisnya sedang mengalami keguncangan atau kesulitan besar.',
     category: 'Support',

@@ -28,7 +28,7 @@ const articles = [
     author: 'Fulan Al-Habsi',
     date: '02 Mei 2026',
     category: 'Entrepreneurship',
-    img: 'https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2670&auto=format&fit=crop'
+    img: 'https://i.ibb.co.com/7JN7BRNW/tesss.jpg'
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const articles = [
     author: 'Bin Farid',
     date: '28 Apr 2026',
     category: 'Brotherhood',
-    img: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2670&auto=format&fit=crop'
+    img: 'https://i.ibb.co.com/tw84hx2S/IMG-7569.jpg'
   }
 ];
 

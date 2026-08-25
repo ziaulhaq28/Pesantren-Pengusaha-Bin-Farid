@@ -7,7 +7,7 @@ import { cn } from '@/src/lib/utils';
 const slides = [
   {
     image: 'https://images.unsplash.com/photo-1544161515-4ad6cd248931?q=80&w=2670&auto=format&fit=crop',
-    title: 'Konglomerat Dunia Akhirat',
+    title: 'Konglomerat Akhirat',
     subtitle: 'Saat Bisnis Butuh Strategi, dan Jiwa Butuh Sandaran.',
     desc: 'Pesantren Pengusaha Bin Farid adalah ruang belajar kehidupan bagi para pengusaha muslim yang ingin bertumbuh dalam bisnis dan dikuatkan dalam ujian.'
   },

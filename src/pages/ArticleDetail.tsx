@@ -51,7 +51,7 @@ const articleData: Record<number, any> = {
     author: 'Fulan Al-Habsi',
     date: '02 Mei 2026',
     category: 'Entrepreneurship',
-    img: 'https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2670&auto=format&fit=crop',
+    img: 'https://i.ibb.co.com/7JN7BRNW/tesss.jpg',
     content: `
       <p>Di era digital yang serba cepat ini, nilai-nilai kepemimpinan seringkali tereduksi menjadi angka-angka performa semata. Namun, pondasi kepemimpinan Islam tetaplah Amanah.</p>
       
@@ -67,7 +67,7 @@ const articleData: Record<number, any> = {
     author: 'Bin Farid',
     date: '28 Apr 2026',
     category: 'Brotherhood',
-    img: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2670&auto=format&fit=crop',
+    img: 'https://i.ibb.co.com/tw84hx2S/IMG-7569.jpg',
     content: `
       <p>Rezeki seringkali datang melalui pintu-pintu yang tidak terduga, dan salah satu pintu terbesarnya adalah silaturahmi. Ukhuwah Islamiyah bukan sekadar networking bisnis biasa, tapi ikatan hati.</p>
       

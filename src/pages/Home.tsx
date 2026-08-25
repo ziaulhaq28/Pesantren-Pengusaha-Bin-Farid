@@ -5,7 +5,6 @@ import { TrendingUp, ShieldCheck, Heart, Users, Anchor, ChevronRight, Quote } fr
 import { cn } from '@/src/lib/utils';
 
 import founderImg from '../assets/images/founder.png';
-import manifestoImg from '../assets/images/manifesto.jpg';
 import ngajiBisnisImg from '../assets/images/ngaji_bisnis.jpg';
 import zalzalahSupportImg from '../assets/images/zalzalah_support.jpg';
 
@@ -23,9 +22,9 @@ export default function Home() {
             <FadeIn direction="right" className="relative">
               <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative z-10 border-8 border-white">
                 <img 
-                  src={manifestoImg} 
-                  alt="Ukhuwah"
-                  className="w-full h-full object-cover"
+                  src="https://i.ibb.co.com/VYm7Dd5m/IMG-7420.jpg" 
+                  alt="Ukhuwah Pesantren Pengusaha Bin Farid"
+                  className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 />
               </div>
               <div className="absolute -bottom-8 -right-8 w-48 h-48 bg-primary-green/10 rounded-full blur-3xl -z-1" />
@@ -134,10 +133,10 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { 
-                id: 'majelis-22-bin-farid',
-                title: 'Majelis 22', 
+                id: 'majelis-al-mahabbah',
+                title: 'Majelis Al-Mahabbah', 
                 img: 'https://i.ibb.co.com/VdTTstr/close-up-still-life-hard-exams.jpg',
-                desc: 'Kajian spiritual khusus pengusaha setiap tanggal 22 di Yogyakarta.'
+                desc: 'Melahirkan 1000 pebisnis yang berkarakter taqwa setara dengan sahabat Rasul yang berbisnis selayaknya pebisnis kelas dunia.'
               },
               { 
                 id: 'ngaji-bisnis',
@@ -146,8 +145,8 @@ export default function Home() {
                 desc: 'Bedah strategi muamalah kontemporer berbasis nilai-nilai Islam.'
               },
               { 
-                id: 'zalzalah-support',
-                title: 'Zalzalah Support', 
+                id: 'santri-zalzalah',
+                title: 'Santri Zalzalah', 
                 img: zalzalahSupportImg,
                 desc: 'Ruang penguatan spiritual dan dukungan saat bisnis menghadapi ujian berat.'
               }
@@ -188,7 +187,7 @@ export default function Home() {
                  <img src={founderImg} alt="Founder" className="w-full h-full object-cover" />
                </div>
                <span className="font-bold text-charcoal uppercase tracking-widest text-xs">Ustaz Farid Tri Widodo</span>
-               <span className="text-muted-text text-[10px] tracking-widest uppercase mt-1">Pembimbing Spiritual</span>
+               <span className="text-muted-text text-[10px] tracking-widest uppercase mt-1">Founder</span>
             </div>
           </FadeIn>
         </div>
@@ -199,7 +198,7 @@ export default function Home() {
         <FadeIn className="max-w-7xl mx-auto bg-primary-green rounded-[3rem] p-12 md:p-20 text-center text-white relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-full opacity-5 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/arabesque.png')] scale-150" />
           <div className="relative z-10">
-            <h2 className="text-4xl md:text-6xl mb-8">Siap Bergabung dalam <br className="hidden md:block"/> Persaudaraan Langit?</h2>
+            <h2 className="text-4xl md:text-6xl mb-8">Siap Bergabung?</h2>
             <p className="text-white/70 text-lg max-w-2xl mx-auto mb-12 leading-relaxed">
               Jadilah bagian dari ekosistem pengusaha muslim yang saling menguatkan. Berjuang bersama untuk kesuksesan dunia dan kemuliaan akhirat.
             </p>

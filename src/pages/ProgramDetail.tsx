@@ -10,13 +10,13 @@ import rihlahPengusahaImg from '../assets/images/rihlah_pengusaha.jpg';
 import zalzalahSupportImg from '../assets/images/zalzalah_support.jpg';
 
 const programData: Record<string, any> = {
-  'majelis-22-bin-farid': {
-    title: 'Majelis 22 Bin Farid',
-    subtitle: 'Titik Reuni Spiritual & Business Bonding',
+  'majelis-al-mahabbah': {
+    title: 'Majelis Al-Mahabbah',
+    subtitle: 'Melahirkan 1000 Pebisnis Berkarakter Taqwa',
     image: 'https://i.ibb.co.com/VdTTstr/close-up-still-life-hard-exams.jpg',
-    longDesc: 'Majelis 22 adalah ruh dari Pesantren Pengusaha Bin Farid. Diadakan setiap tanggal 22, majelis ini bukan hanya sekadar pertemuan, melainkan ruang bagi para pemilik bisnis untuk menanggalkan jabatannya dan bersimpuh sebagai hamba. Di sini, ukhuwah dipererat, iman diperbarui, dan strategi bisnis dirumuskan dalam bingkai keberkahan.',
+    longDesc: 'Melahirkan 1000 pebisnis yang berkarakter taqwa setara dengan sahabat Rasul yang berbisnis selayaknya pebisnis kelas dunia. Majelis Al-Mahabbah adalah ruh dari Pesantren Pengusaha Bin Farid sebagai ruang bagi para pemilik bisnis untuk menanggalkan jabatannya dan bersimpuh sebagai hamba. Di sini, ukhuwah dipererat, iman diperbarui, dan strategi bisnis dirumuskan dalam bingkai keberkahan.',
     features: [
-      { icon: <Calendar size={20} />, label: 'Setiap Tanggal 22', desc: 'Konsistensi dalam pertemuan rutin bulanan.' },
+      { icon: <Calendar size={20} />, label: 'Pertemuan Rutin', desc: 'Konsistensi dalam silaturahmi dan penguatan spiritual.' },
       { icon: <Users size={20} />, label: 'Networking Ukhuwah', desc: 'Membangun jaringan bisnis yang berlandaskan iman.' },
       { icon: <Target size={20} />, label: 'Spiritual Recharge', desc: 'Kajian mendalam mengenai adab dan spiritualitas pengusaha.' }
     ],
@@ -49,11 +49,11 @@ const programData: Record<string, any> = {
     details: 'Program ini dibatasi hanya untuk pemilik bisnis dengan kriteria tertentu guna menjaga kualitas diskusi yang strategis dan mendalam.',
     location: 'Exclusive Venues'
   },
-  'zalzalah-support': {
-    title: 'Zalzalah Support',
+  'santri-zalzalah': {
+    title: 'Santri Zalzalah',
     subtitle: 'Bahu Sandaran Saat Ujian Datang',
     image: zalzalahSupportImg,
-    longDesc: 'Bisnis tidak selamanya di atas. Zalzalah Support hadir sebagai sistem pendukung emosional dan spiritual ketika badai ujian menghantam. Kami percaya tidak ada pengusaha yang boleh berjuang sendirian dalam kesulitan.',
+    longDesc: 'Bisnis tidak selamanya di atas. Santri Zalzalah hadir sebagai sistem pendukung emosional dan spiritual ketika badai ujian menghantam. Kami percaya tidak ada pengusaha yang boleh berjuang sendirian dalam kesulitan.',
     features: [
       { icon: <ShieldCheck size={20} />, label: 'Emotional Support', desc: 'Pendampingan psikologis dan spiritual bagi owner.' },
       { icon: <Users size={20} />, label: 'Crisis Strategy', desc: 'Bantuan pemikiran untuk restrukturisasi bisnis.' },
@@ -89,6 +89,9 @@ const programData: Record<string, any> = {
     location: 'Nature Landmarks'
   }
 };
+
+programData['majelis-22-bin-farid'] = programData['majelis-al-mahabbah'];
+programData['zalzalah-support'] = programData['santri-zalzalah'];
 
 export default function ProgramDetail() {
   const { id } = useParams();
